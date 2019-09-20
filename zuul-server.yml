@@ -8,6 +8,10 @@ zuul:
         path: /vuelos/** #path that will be intercepted
         #url: http://localhost:10000/lista #which url the request will e mapped to
         serviceId: servicio-vuelos
+     servicio-reservas: # Service to create as sample
+        path: /reservas/** #path that will be intercepted
+        #url: http://localhost:10000/lista #which url the request will e mapped to
+        serviceId: servicio-reservas
      
 eureka:                  
   client:
