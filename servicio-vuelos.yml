@@ -1,5 +1,5 @@
 spring:
-  application:
+  application: 
     name: servicio-vuelos   
 server:    
   port: 9000
